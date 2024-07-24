@@ -28,27 +28,27 @@ The PDF ChatBot is a web application built using Streamlit that allows users to 
 
   # Upload PDF Documents:
 
-      Users can upload one or more PDF documents using the file uploader in the Streamlit app.
+      **Users can upload one or more PDF documents using the file uploader in the Streamlit app**
 
   # Process Documents:
 
-      Once the PDFs are uploaded, clicking the "Process" button triggers the processing of the documents. The text from the PDFs is extracted and split into chunks.
+      **Once the PDFs are uploaded, clicking the "Process" button triggers the processing of the documents. The text from the PDFs is extracted and split into chunks**
 
   # Create Vector Store:
 
-      The extracted text chunks are converted into embeddings using the HuggingFaceEmbeddings model. These embeddings are then stored in a FAISS vector store for efficient retrieval.
+      **The extracted text chunks are converted into embeddings using the HuggingFaceEmbeddings model. These embeddings are then stored in a FAISS vector store for efficient retrieval**
 
   # Generate Conversation Chain:
 
-      A conversational retrieval chain is created using the ChatGroq model and the vector store. This chain enables the chatbot to respond to user questions based on the content of the PDFs.
+     **A conversational retrieval chain is created using the ChatGroq model and the vector store. This chain enables the chatbot to respond to user questions based on the content of the PDFs**
 
   # Ask Questions:
 
-      Users can input questions related to the content of the uploaded PDFs. The chatbot will generate responses based on the document content and the conversation history.
+     **Users can input questions related to the content of the uploaded PDFs. The chatbot will generate responses based on the document content and the conversation history**
 
   # Display Responses:
 
-      The conversation history is displayed in the chat interface, with user and assistant messages styled for clarity.
+     **The conversation history is displayed in the chat interface, with user and assistant messages styled for clarity**
 
 
 
