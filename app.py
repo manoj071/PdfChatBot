@@ -18,10 +18,6 @@ Chat History:
 Follow Up Input: {question}
 Standalone question:
 
-if the standalone question made by you and provided context is not matched do not give response by yourself say the query not matched.
-
-The context provide to the model as a parameter(vector)
-
 """
 
 CUSTOM_QUESTION_PROMPT = PromptTemplate.from_template(custom_template)
